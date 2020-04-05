@@ -33,7 +33,7 @@ Forensics
 		flag: picoCTF{now_you_know_about_extensions}
 	c0rrupt - 
 		flag:
-	shark on wire 1 - 
+	shark on wire 1 - out of my depth here, hand to rely on John Hammond to write a Python script for this one; starting to look at these challenges more as a learning opportunity; my skills are not high enough to complete them on my own yet
 		flag:
 		
 Cryptography
