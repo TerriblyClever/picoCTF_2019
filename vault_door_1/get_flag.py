@@ -1,9 +1,17 @@
 import re
 
-password_dict = {}
+ro = re.compile(r"\((\d+)\)\s+==\s'(\w)'")
+
+password_list = []
+
 with open('password.txt', 'r') as p:
 	for line in p:
-		number = re.findall(r'\(\d\d?\)', line)
-		flag = re.findall(r"'\w'", line)
-		password_dict[number][0] = flag[0]
-		print(password_dict)
+		mo = ro.search(line)
+		password_list.append((int(mo.group(1)), mo.group(2)))
+	password_list.sort()
+	
+	flag = ""
+	for flag_piece in password_list:
+		flag += flag_piece[1]
+
+	print(flag)

@@ -97,9 +97,14 @@ Web Exploitation
 		flag: picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?39dd9e36}
 	where are the robots? - navigated to the pico web page https://2019shell1.picoctf.com/problem/32229/, and then added the location robots.txt and found a page specified, 0ecd0.html
 		flag: picoCTF{ca1cu1at1ng_Mach1n3s_0ecd0}
+	dont-use-client-side - given a website to navigate to the flag was simply cut up in a series of 'if' statements in the index.html source code
+		flag: picoCTF{no_clients_plz_90ff34}
 	
 Reverse Engineering
 	vault-door-training - open up the java file, find the flag and copy
 		flag: picoCTF{w4rm1ng_Up_w1tH_jAv4_87f51143e4b}
 	vault-door-1 - given a new java file, the password got scrambled in an array; I copied it to a text file that Python could read in and sort, printing back the flag
+		flag: picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_8b748e}
+	vault-door-3 - given another java file
 		flag: 
+	
