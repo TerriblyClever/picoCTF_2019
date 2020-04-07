@@ -99,6 +99,8 @@ Web Exploitation
 		flag: picoCTF{ca1cu1at1ng_Mach1n3s_0ecd0}
 	dont-use-client-side - given a website to navigate to the flag was simply cut up in a series of 'if' statements in the index.html source code
 		flag: picoCTF{no_clients_plz_90ff34}
+	logon - given a website we are asked to log on and get the flag; opened developer tools and found a 'flag' cookie; right-click and copy cURL, pasted into command line and found an option admin=False that I changed to True
+		flag: picoCTF{th3_c0nsp1r4cy_l1v3s_9e21365b}
 	
 Reverse Engineering
 	vault-door-training - open up the java file, find the flag and copy
