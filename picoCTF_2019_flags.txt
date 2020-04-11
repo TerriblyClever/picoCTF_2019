@@ -91,6 +91,8 @@ Binary Exploitation
 		flag: picoCTF{g3t_r3adY_2_r3v3r53}
 	handy-shellcode - followed a John Hammond video for this one; learned to run Python from the command line using 'python3 -c "<code here>" and piped the printed output to the function, | ./vuln, using the command 'cat' 
 		flag: picoCTF{h4ndY_d4ndY_sh311c0d3_2cb0ff39}
+	OverFlow 0 - started watching a John Hammond on Buffer Overflow from another CTF he did, and in the process of entering a long argument "A" *112 I happened to get the flag... Not sure why, I was expecting a segmentation fault or something like that
+		flag: picoCTF{3asY_P3a5y1fcf81f9}
 		
 Web Exploitation
 	Insp3ct0r - simply used F12 to inspect elements and piece together the flag from the html body, the css file (mycss.css), and a javascript file (myjss.jss)

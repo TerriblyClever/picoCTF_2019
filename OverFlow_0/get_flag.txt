@@ -1,0 +1,5 @@
+passed in argument "A"*112 and returned the flag
+flag: picoCTF{3asY_P3a5y1fcf81f9}
+
+Not really sure why this worked... Thought I would have to specify a return address of some sort.
+
