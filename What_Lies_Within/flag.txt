@@ -1,0 +1,4 @@
+Took the "hint" literally here and looked for an online Steganography decoder
+https://stylesuxx.github.io/steganography/
+
+picoCTF{h1d1ng_1n_th3_b1t5}

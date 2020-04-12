@@ -37,6 +37,8 @@ Forensics
 		flag: picoCTF{StaT31355_636f6e6e} 
 	like1000 - learned about .tar files, sort of the .zip equivalent for Linux; wrote a Python script making use of the tarfile module to decompress a .tar within a .tar within a... etc... 1000 times
 		flag: picoCTF{l0t5_0f_TAR5}
+	What Lies Within - able to use an online steganography tool, https://stylesuxx.github.io/steganography/, to find this one; also learned how to encode/decod with Python module stegano (didn't work for this challenge, but could be used for my own in the future), and came across resources "zsteg" and "katana" (which I could run from the command line after cloning)
+		flag: picoCTF{h1d1ng_1n_th3_b1t5}
 		
 Cryptography
 	The Numbers - download a .png that contains numbers; numbers represent letter position in alphabet and need to be decoded. Wrote a Python script. (for some reason the flag format was all uppercase)
