@@ -35,6 +35,8 @@ Forensics
 		flag:
 	shark on wire 1 - out of my depth here, hand to rely on John Hammond to write a Python script for this one; starting to look at these challenges more as a learning opportunity; my skills are not high enough to complete them on my own yet
 		flag: picoCTF{StaT31355_636f6e6e} 
+	like1000 - learned about .tar files, sort of the .zip equivalent for Linux; wrote a Python script making use of the tarfile module to decompress a .tar within a .tar within a... etc... 1000 times
+		flag: picoCTF{l0t5_0f_TAR5}
 		
 Cryptography
 	The Numbers - download a .png that contains numbers; numbers represent letter position in alphabet and need to be decoded. Wrote a Python script. (for some reason the flag format was all uppercase)
