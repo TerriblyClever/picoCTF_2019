@@ -39,6 +39,8 @@ Forensics
 		flag: picoCTF{l0t5_0f_TAR5}
 	What Lies Within - able to use an online steganography tool, https://stylesuxx.github.io/steganography/, to find this one; also learned how to encode/decod with Python module stegano (didn't work for this challenge, but could be used for my own in the future), and came across resources "zsteg" and "katana" (which I could run from the command line after cloning)
 		flag: picoCTF{h1d1ng_1n_th3_b1t5}
+	shark on wire 2 - given another pcap file, scrolling through UDP packets and found that the source ports were all 5000 except for those from 10.0.0.66 to 10.0.0.1, which were always 5000 + a 3-digit number that looked like it corresponded to ASCII character codes
+		flag: picoCTF{p1LLf3r3d_data_v1a_st3g0}
 		
 Cryptography
 	The Numbers - download a .png that contains numbers; numbers represent letter position in alphabet and need to be decoded. Wrote a Python script. (for some reason the flag format was all uppercase)
