@@ -1,4 +1,4 @@
-General Skills
+General Skills 
 	Bases - Python, import base64, use base64.b64decode('bDNhcm5fdGgzX3IwcDM1')
 		flag: picoCTF{l3arn_th3_r0p35}
 	Resources - Navigate to page link, skroll down
@@ -21,6 +21,10 @@ General Skills
 		flag: picoCTF{th3yr3_a5_d1ff3r3nt_4s_bu773r_4nd_j311y_aslkjfdsalkfslkflkjdsfdszmz10548}
 	flag shop - used netcat to connect to the specified port; examined the source .c file and found that the variable for number_flags was an int (signed int, max value of 2147483647). Values greater than this roll over to negative, so I entered 2386095, which multiplied by 900 (cost of flag) became negative and was then added to my account balance.
 		flag: picoCTF{m0n3y_bag5_b9f469b5}
+	mus1C - website resource helpful for this one, https://codewithrockstar.com/docs, the homepage for the rockstar coding language; includes docs on syntax as well as a window to run code and view output
+		flag: picoCTF{rrracknrn0113r}
+	1_wanna_b3_a_r0ck5tar - had to learn a little more for this one (aliases for assigning variables includes ['is', 'are', 'was', 'were']), and that "Listen to" meands to read into a variable from STDIN, and '!' at the end of a Shout or Scream means nothing, nor does it affect variable assignment
+		flag: picoCTF{BONJOVI} 
 
 Forensics	
 	unzip - download the zipped folder and extract all, then open the .png file
