@@ -113,6 +113,8 @@ Web Exploitation
 		flag: picoCTF{no_clients_plz_90ff34}
 	logon - given a website we are asked to log on and get the flag; opened developer tools and found a 'flag' cookie; right-click and copy cURL, pasted into command line and found an option admin=False that I changed to True
 		flag: picoCTF{th3_c0nsp1r4cy_l1v3s_9e21365b}
+	picobrowser - found 2 ways to solve this, one using Inspect Elements and the other using curl; inspect elements, under Network the Header can be edited so that the 'User-Agent:' is identified as 'picobrowser', send the request and then check the Response; using curl -s -H "User-Agent: picobrowser" | grep -oE "picoCTF{.*?}"
+		flag: picoCTF{p1c0_s3cr3t_ag3nt_7e9c671a}
 	
 Reverse Engineering
 	vault-door-training - open up the java file, find the flag and copy
